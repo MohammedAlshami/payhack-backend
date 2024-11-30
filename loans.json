@@ -1,17 +1,42 @@
 [
   {
-    "companyName": "BSN Microplus",
-    "companyLogo": "https://yt3.googleusercontent.com/ytc/AIdro_lEIiSVnHtVy5xmLZcZ05qeZP9jzEi4Ov-TI9AoiCWG18A=s900-c-k-c0x00ffffff-no-rj",
+    "companyName": "Tech Innovators Inc.",
+    "companyLogo": "https://img.freepik.com/free-photo/portrait-smiling-young-man_23-2148724568.jpg",
     "loanTyp": "Microloan",
-    "date": "12/12/2021",
+    "date": "30/11/2024",
     "details": "We manage software solutions with agility and precision, ensuring seamless operations and innovative outcomes.",
+    "projectTitle": "Project A",
+    "projectDescription": "This is a description of Project A.",
+    "loanAmount": "5000",
+    "loanDuration": "3 - 5 months",
+    "availableCredit": "RM 10,000",
+    "discount": "4% discount",
+    "spendingDetails": [
+      {
+        "title": "Equipment",
+        "amount": 2000
+      },
+      {
+        "title": "Marketing",
+        "amount": 1500
+      }
+    ],
+    "fileLinks": [
+      {
+        "title": "Business Plan",
+        "link": "https://example.com/business-plan.pdf"
+      },
+      {
+        "title": "Financial Report",
+        "link": "https://example.com/financial-report.pdf"
+      }
+    ],
     "loanDetails": [
       {
         "icon": "percentage",
         "title": "Interest Rate",
         "content": "% 10"
       },
-
       {
         "icon": "currency",
         "title": "Repayment Period",
@@ -29,6 +54,7 @@
         "title": "Minimum Income",
         "content": "$1,000/month"
       }
-    ]
+    ],
+    "page": "/p2p/lender?company=Tech Innovators Inc."
   }
 ]

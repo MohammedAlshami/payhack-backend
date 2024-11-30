@@ -79,5 +79,23 @@
         "discount": "5% discount",
         "page": "/p2p/lender?company=Tech Innovators Inc.",
         "details": "idk"
+    },
+    {
+        "companyName": "Tech Innovators Inc.",
+        "companyImage": "https://img.freepik.com/free-photo/portrait-smiling-young-man_23-2148724568.jpg",
+        "loanDuration": "6 - 12 months",
+        "availableCredit": "RM 50,000",
+        "discount": "5% discount",
+        "page": "/p2p/lender?company=Tech Innovators Inc.",
+        "details": "Loan duration: sales > 500k, available credit: RM 10,000, discount: 10/12"
+    },
+    {
+        "companyName": "Tech Innovators Inc.",
+        "companyImage": "https://img.freepik.com/free-photo/portrait-smiling-young-man_23-2148724568.jpg",
+        "loanDuration": "6 - 12 months",
+        "availableCredit": "RM 50,000",
+        "discount": "5% discount",
+        "page": "/p2p/lender?company=Tech Innovators Inc.",
+        "details": "add product"
     }
 ]

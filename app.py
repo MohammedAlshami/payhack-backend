@@ -10,7 +10,7 @@ CORS(app)
 # Endpoint to fetch all P2P companies
 @app.route('/api/get-all-p2p', methods=['GET'])
 def get_all_p2p():
-    with open('p2p_companies.json', 'r') as file:
+    with open('loans.json', 'r') as file:
         data = json.load(file)
     return jsonify(data)
 
@@ -132,6 +132,31 @@ def add_loan_request():
 
         # Return a success response
         return jsonify({"message": "Loan request added successfully!"}), 201
+
+    except Exception as e:
+        return jsonify({"error": str(e)}), 500
+
+# Endpoint to add a new loan record to loans.json
+@app.route('/api/add-loan', methods=['POST'])
+def add_loan():
+    try:
+        # Get the JSON data from the request
+        new_loan = request.get_json()
+        print(new_loan)
+
+        # Load existing loan data from loans.json
+        with open('loans.json', 'r') as file:
+            loans_data = json.load(file)
+
+        # Append the new loan to the data
+        loans_data.append(new_loan)
+
+        # Save the updated data back to loans.json
+        with open('loans.json', 'w') as file:
+            json.dump(loans_data, file, indent=4)
+
+        # Return a success response
+        return jsonify({"message": "Loan record added successfully!"}), 201
 
     except Exception as e:
         return jsonify({"error": str(e)}), 500
