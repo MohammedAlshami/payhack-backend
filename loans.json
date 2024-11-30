@@ -1,0 +1,34 @@
+[
+  {
+    "companyName": "BSN Microplus",
+    "companyLogo": "https://yt3.googleusercontent.com/ytc/AIdro_lEIiSVnHtVy5xmLZcZ05qeZP9jzEi4Ov-TI9AoiCWG18A=s900-c-k-c0x00ffffff-no-rj",
+    "loanTyp": "Microloan",
+    "date": "12/12/2021",
+    "details": "We manage software solutions with agility and precision, ensuring seamless operations and innovative outcomes.",
+    "loanDetails": [
+      {
+        "icon": "percentage",
+        "title": "Interest Rate",
+        "content": "% 10"
+      },
+
+      {
+        "icon": "currency",
+        "title": "Repayment Period",
+        "content": "3 - 6 months"
+      }
+    ],
+    "requirementsDetails": [
+      {
+        "icon": "",
+        "title": "Collateral",
+        "content": "None"
+      },
+      {
+        "icon": "",
+        "title": "Minimum Income",
+        "content": "$1,000/month"
+      }
+    ]
+  }
+]

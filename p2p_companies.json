@@ -1,0 +1,18 @@
+[
+  {
+    "companyName": "Kampung Food LTD",
+    "companyImage": "https://img.freepik.com/free-photo/front-view-man-with-beard-posing_23-2149438512.jpg",
+    "loanDuration": "3 - 5 months",
+    "availableCredit": "RM 10,000",
+    "discount": "4% discount",
+    "page": "/p2p/lender?company=BSN Microplus"
+  },
+  {
+    "companyName": "Tech Innovators Inc.",
+    "companyImage": "https://img.freepik.com/free-photo/portrait-smiling-young-man_23-2148724568.jpg",
+    "loanDuration": "6 - 12 months",
+    "availableCredit": "RM 50,000",
+    "discount": "5% discount",
+    "page": "/p2p/lender?company=Tech Innovators Inc."
+  }
+]

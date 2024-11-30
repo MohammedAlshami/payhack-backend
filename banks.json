@@ -1,0 +1,19 @@
+[
+    {
+      "companyName": "Bank of America",
+      "companyImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDHjZQZYAXSe8WwbRyZj2IIXE3xg0PucntmQ&s",
+      "loanDuration": "3 - 5 months",
+      "availableCredit": "USD 10,000",
+      "discount": "4% discount",
+      "page": "/p2p/lender"
+    },
+    {
+      "companyName": "Chase Bank",
+      "companyImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDHjZQZYAXSe8WwbRyZj2IIXE3xg0PucntmQ&s",
+      "loanDuration": "6 - 12 months",
+      "availableCredit": "USD 50,000",
+      "discount": "5% discount",
+      "page": "/p2p/lender"
+    }
+  ]
+  
