@@ -35,7 +35,7 @@
     "loanDetails": [
       {
         "icon": "percentage",
-        "title": "Interest Rate",
+        "title": "Discount Rate",
         "content": "% 10"
       },
       {
@@ -95,7 +95,7 @@
     "loanDetails": [
       {
         "icon": "percentage",
-        "title": "Interest Rate",
+        "title": "Discount Rate",
         "content": "% 10"
       },
       {
@@ -155,7 +155,7 @@
     "loanDetails": [
       {
         "icon": "percentage",
-        "title": "Interest Rate",
+        "title": "Discount Rate",
         "content": "% 10"
       },
       {
