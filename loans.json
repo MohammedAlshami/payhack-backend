@@ -11,6 +11,7 @@
     "loanDuration": "3 - 5 months",
     "availableCredit": "RM 10,000",
     "discount": "4% discount",
+    "type": "microvender",
     "spendingDetails": [
       {
         "title": "Equipment",
@@ -56,5 +57,125 @@
       }
     ],
     "page": "/p2p/lender?company=Tech Innovators Inc."
+  },
+  {
+    "companyName": "Bank of America",
+    "companyLogo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDHjZQZYAXSe8WwbRyZj2IIXE3xg0PucntmQ&s",
+    "loanTyp": "Microloan",
+    "date": "30/11/2024",
+    "details": "We manage software solutions with agility and precision, ensuring seamless operations and innovative outcomes.",
+    "projectTitle": "Project A",
+    "projectDescription": "This is a description of Project A.",
+    "loanAmount": "5000",
+    "loanDuration": "3 - 5 months",
+    "availableCredit": "RM 10,000",
+    "type": "bank",
+
+    "discount": "4% discount",
+    "spendingDetails": [
+      {
+        "title": "Equipment",
+        "amount": 2000
+      },
+      {
+        "title": "Marketing",
+        "amount": 1500
+      }
+    ],
+    "fileLinks": [
+      {
+        "title": "Business Plan",
+        "link": "https://example.com/business-plan.pdf"
+      },
+      {
+        "title": "Financial Report",
+        "link": "https://example.com/financial-report.pdf"
+      }
+    ],
+    "loanDetails": [
+      {
+        "icon": "percentage",
+        "title": "Interest Rate",
+        "content": "% 10"
+      },
+      {
+        "icon": "currency",
+        "title": "Repayment Period",
+        "content": "3 - 6 months"
+      }
+    ],
+    "requirementsDetails": [
+      {
+        "icon": "",
+        "title": "Collateral",
+        "content": "None"
+      },
+      {
+        "icon": "",
+        "title": "Minimum Income",
+        "content": "$1,000/month"
+      }
+    ],
+    "page": "/p2p/lender?company=Bank of America"
+  },
+  {
+    "companyName": "Chase Bank",
+    "companyLogo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDHjZQZYAXSe8WwbRyZj2IIXE3xg0PucntmQ&s",
+    "loanTyp": "Microloan",
+    "date": "30/11/2024",
+    "details": "We manage software solutions with agility and precision, ensuring seamless operations and innovative outcomes.",
+    "projectTitle": "Project A",
+    "projectDescription": "This is a description of Project A.",
+    "loanAmount": "5000",
+    "loanDuration": "3 - 5 months",
+    "availableCredit": "RM 10,000",
+    "discount": "4% discount",
+    "type": "bank",
+
+    "spendingDetails": [
+      {
+        "title": "Equipment",
+        "amount": 2000
+      },
+      {
+        "title": "Marketing",
+        "amount": 1500
+      }
+    ],
+    "fileLinks": [
+      {
+        "title": "Business Plan",
+        "link": "https://example.com/business-plan.pdf"
+      },
+      {
+        "title": "Financial Report",
+        "link": "https://example.com/financial-report.pdf"
+      }
+    ],
+    "loanDetails": [
+      {
+        "icon": "percentage",
+        "title": "Interest Rate",
+        "content": "% 10"
+      },
+      {
+        "icon": "currency",
+        "title": "Repayment Period",
+        "content": "3 - 6 months"
+      }
+    ],
+    "requirementsDetails": [
+      {
+        "icon": "",
+        "title": "Collateral",
+        "content": "None"
+      },
+      {
+        "icon": "",
+        "title": "Minimum Income",
+        "content": "$1,000/month"
+      }
+    ],
+    "page": "/p2p/lender?company=Bank of America"
   }
 ]

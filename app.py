@@ -12,15 +12,22 @@ CORS(app)
 def get_all_p2p():
     with open('loans.json', 'r') as file:
         data = json.load(file)
-    return jsonify(data)
+
+    # Filter out records where type is 'bank'
+    filtered_data = [record for record in data if record.get('type') != 'bank']
+
+    return jsonify(filtered_data)
 
 # Endpoint to fetch all banks
 @app.route('/api/get-all-banks', methods=['GET'])
 def get_all_banks():
-    with open('banks.json', 'r') as file:
+    with open('loans.json', 'r') as file:
         data = json.load(file)
-    return jsonify(data)
 
+    # Filter out records where type is 'bank'
+    filtered_data = [record for record in data if record.get('type') == 'bank']
+
+    return jsonify(filtered_data)
 # Endpoint to fetch a specific P2P company by name
 @app.route('/api/get-p2p-company', methods=['GET'])
 def get_p2p_company():
